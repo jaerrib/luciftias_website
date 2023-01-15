@@ -1,14 +1,14 @@
 body {
   overflow: auto;
   background-color: black;
-  color: #808080;
+  color: darkgray;
   font-family: 'Ubuntu', sans-serif;
   margin: 5%;
   text-align: left;
 }
 
 h1 {
-  color: #deddda;
+  color: lightgray;
   font-family: 'Ubuntu', sans-serif;
   font-size: 500%;
   font-weight: 500;
@@ -16,7 +16,7 @@ h1 {
 }
 
 h2 {
-  color: #deddda;
+  color: lightgray;
   font-family: 'Ubuntu', sans-serif;
   font-size: 125%;
   font-weight: 500;
@@ -24,14 +24,14 @@ h2 {
 }
 
 hr {
-  border: dotted #808080 6px;
+  border: dotted darkgray 6px;
   border-bottom: none;
   width: 10%;
   margin: 50px auto;
 }
 
 .logo {
-  background-color: #006699;
+  background-color: steelblue;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -46,7 +46,8 @@ p {
 }
 
 .div1 {
-  background-color: #006699;
+  background-color: steelblue;
+  color: black;
   margin: 20px 0px;
   padding: 5px;
   width: auto;
@@ -54,24 +55,26 @@ p {
 }
 
 .title {
-  color: #deddda;
+  color: lightgray;
+  font-size: 110%;
   font-weight: bold;
   margin: 15px auto;
   text-align: center;
 }
 
 .footer {
-  color: #404040;
+  color: darkgray;
   font-size: 75%;
   font-weight: lighter;
   text-align: center;
 }
 
 .menu {
-  color: #808080;
+  color: darkgray;
   font-family: 'Ubuntu', sans-serif;
   font-size: 150%;
   font-weight: normal;
+  padding: 10px;
   text-align: center;
 }
 
@@ -82,24 +85,30 @@ p {
   padding-left: 25px;
 }
 
+.centered {
+  padding: 10px 0;
+  display:grid;
+  justify-content: center;
+}
+
 .current_page {
-  font-weight: bold;
+  font-weight: bolder;
 }
 
 a {
-  color: #006699;
+  color: steelblue;
   text-decoration: none;
   padding: 2px;
 }
 
 a:hover {
-  background-color: #006699;
-  color: #deddda;
+  background-color: steelblue;
+  color: black;
   text-decoration: none;
 }
 
 a:active {
-  color: #408080;
+  color: steelblue;
   text-decoration: none;
 }
 
