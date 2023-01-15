@@ -1,5 +1,6 @@
 body {
-  background-color: #241f31;
+  overflow: auto;
+  background-color: black;
   color: #808080;
   font-family: 'Ubuntu', sans-serif;
   margin: 5%;
@@ -9,7 +10,7 @@ body {
 h1 {
   color: #deddda;
   font-family: 'Ubuntu', sans-serif;
-  font-size: 5rem;
+  font-size: 500%;
   font-weight: 500;
   text-align: center;
 }
@@ -17,11 +18,10 @@ h1 {
 h2 {
   color: #deddda;
   font-family: 'Ubuntu', sans-serif;
-  font-size: 1.25rem;
+  font-size: 125%;
   font-weight: 500;
+  text-align: left;
 }
-
-h3 {}
 
 hr {
   border: dotted #808080 6px;
@@ -30,16 +30,27 @@ hr {
   margin: 50px auto;
 }
 
+.logo {
+  background-color: #006699;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1% 5%;
+  width: 50%;
+}
+
 p {
   font-family: 'Ubuntu', sans-serif;
-  font-size: 1rem;
-  margin: 5%;
+  font-size: 100%;
+  margin: 2%;
 }
 
 .div1 {
   background-color: #006699;
-  margin: auto;
-  width: 100%;
+  margin: 20px 0px;
+  padding: 5px;
+  width: auto;
+
 }
 
 .title {
@@ -51,34 +62,39 @@ p {
 
 .footer {
   color: #404040;
-  font-size: .75rem;
+  font-size: 75%;
   font-weight: lighter;
-  margin: 250px auto;
   text-align: center;
 }
 
 .menu {
   color: #808080;
   font-family: 'Ubuntu', sans-serif;
-  font-size: 1.5rem;
+  font-size: 150%;
   font-weight: normal;
   text-align: center;
 }
 
 .info {
   font-family: 'Ubuntu', sans-serif;
-  font-size: 1rem;
+  font-size: 100%;
   font-weight: normal;
   padding-left: 25px;
+}
+
+.current_page {
+  font-weight: bold;
 }
 
 a {
   color: #006699;
   text-decoration: none;
+  padding: 2px;
 }
 
 a:hover {
-  color: #009966;
+  background-color: #006699;
+  color: #deddda;
   text-decoration: none;
 }
 
@@ -88,6 +104,6 @@ a:active {
 }
 
 a:visited {
-  color: #006699;
+  font-weight: lighter;
   text-decoration: none
 }
