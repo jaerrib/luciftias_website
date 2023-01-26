@@ -1,5 +1,4 @@
 * {
-    /* border: 1px solid black; */
     margin: 0;
     padding: 0;
 }
@@ -86,7 +85,10 @@ a.menubutton:visited {
     text-decoration: none
 }
 
-.main {
+.mainPageContent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: lightgray;
     border-radius: 10px;
     box-shadow: 2px 2px 5px black;
@@ -94,6 +96,30 @@ a.menubutton:visited {
     margin: 20px auto;
     padding: 10px;
     width: 95%
+}
+
+.announcement {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    margin: 20px auto;
+    padding: 10px;
+    width: 800px;
+}
+
+.albumart {
+    flex: 1;
+}
+
+.cover {
+    height: 300px;
+    offset: 5px;
+    box-shadow: 4px 4px 4px gray;
+}
+
+.releaseinfo {
+    flex: 1;
 }
 
 h1 {
@@ -109,6 +135,16 @@ ul,
 li {
     list-style-type: none;
     margin: 10px;
+}
+
+.main {
+    background-color: lightgray;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px black;
+    height: auto;
+    margin: 20px auto;
+    padding: 10px;
+    width: 95%
 }
 
 .centered {
