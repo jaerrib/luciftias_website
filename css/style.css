@@ -100,7 +100,7 @@ a.menubutton:visited {
 
 .announcement {
     display: flex;
-    align-items: top;
+    align-items: flex-start;
     justify-content: center;
     height: auto;
     margin: 20px auto;
@@ -114,7 +114,7 @@ a.menubutton:visited {
 
 .cover {
     height: 300px;
-    offset: 5px;
+    offset-distance: 5px;
     box-shadow: 4px 4px 4px gray;
 }
 
