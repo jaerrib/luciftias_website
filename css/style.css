@@ -100,7 +100,7 @@ a.menubutton:visited {
 
 .announcement {
     display: flex;
-    align-items: center;
+    align-items: top;
     justify-content: center;
     height: auto;
     margin: 20px auto;
@@ -120,6 +120,7 @@ a.menubutton:visited {
 
 .releaseinfo {
     flex: 1;
+    padding: 20px;
 }
 
 h1 {
